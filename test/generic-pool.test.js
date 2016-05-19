@@ -792,9 +792,9 @@ module.exports = {
         })
     };
 
-    acquire_release( 1, 1 )
+    acquire_release( 1, 3 )
     acquire_release( 2, 2 )
-    acquire_release( 3 )
+    acquire_release( 3, 1 )
     acquire_release( 4 )
 
     setTimeout( function() {
